@@ -1,5 +1,53 @@
 {
-  "opportunities": [],
-  "lastUpdate": null,
+  "opportunities": [
+    {
+      "id": "1",
+      "type": "套利",
+      "pairs": ["SOL/USDC", "SOL/USDT"],
+      "profit": "2.5%",
+      "volume": "$50,000",
+      "risk": "低",
+      "source": "@arbitrage_alert",
+      "timestamp": "2026-03-10T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "type": "新池",
+      "pairs": ["PEPE/ETH"],
+      "pool": "Uniswap V3",
+      "apy": "180%",
+      "source": "@defi_summer",
+      "timestamp": "2026-03-10T09:30:00Z"
+    },
+    {
+      "id": "3",
+      "type": "LP",
+      "pairs": ["RARE/ETH"],
+      "pool": "SushiSwap",
+      "apy": "45%",
+      "source": "@lpfinder",
+      "timestamp": "2026-03-10T09:00:00Z"
+    },
+    {
+      "id": "4",
+      "type": "套利",
+      "pairs": ["BTC/USDC"],
+      "profit": "1.2%",
+      "volume": "$100,000",
+      "risk": "低",
+      "source": "@btc_arbitrage",
+      "timestamp": "2026-03-10T08:00:00Z"
+    },
+    {
+      "id": "5",
+      "type": "新池",
+      "pairs": ["WIF/SOL"],
+      "pool": "Raydium",
+      "apy": "250%",
+      "source": "@new_token_alerts",
+      "timestamp": "2026-03-10T07:30:00Z"
+    }
+  ],
+  "lastUpdate": "2026-03-10T10:30:00Z",
   "version": "1.0.0"
 }
