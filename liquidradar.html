@@ -101,7 +101,7 @@
      let allData = [];
         async function fetchData() {
             try {
-                const response = await fetch(API_BASE + '/api/data');
+                const response =await fetch(`${API_BASE}/data.json`);
                 const result = await response.json();
                 if (result.success && result.data.opportunities) {
                     allData = result.data.opportunities;
