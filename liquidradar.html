@@ -97,8 +97,8 @@
         <div id="detailContent"></div>
     </div>
     <script>
-        const API_BASE = '';
-        let allData = [];
+        const API_BASE = 'https://raw.githubusercontent.com/wangqingqing99/liquidradar/main';
+     let allData = [];
         async function fetchData() {
             try {
                 const response = await fetch(API_BASE + '/api/data');
