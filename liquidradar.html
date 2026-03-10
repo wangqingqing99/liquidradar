@@ -103,9 +103,9 @@
             try {
                 const response =await fetch(`${API_BASE}/data.json`);
                 const result = await response.json();
-                if (result.success && result.data.opportunities) {
-                    allData = result.data.opportunities;
-                    renderBubbles(allData);
+                if (result.opportunities) {
+    allData = result.opportunities;
+    updateStats(result);
                     updateStats(result.data);
                 }
             } catch (error) {
